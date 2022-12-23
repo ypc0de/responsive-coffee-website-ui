@@ -1,0 +1,95 @@
+{
+  "categories": [
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Pizza Macaroni",
+      "price": "8",
+      "imageUrl": "./media/main-menu1.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Burger beef special",
+      "price": "9",
+      "imageUrl": "./media/main-menu2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Burger vegetarian",
+      "price": "10",
+      "imageUrl": "./media/main-menu3.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "main-menu",
+      "title": "Burger vegetarian special",
+      "price": "12",
+      "imageUrl": "./media/main-menu4.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Cappucino Late",
+      "price": "5",
+      "imageUrl": "./media/coffee.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Cappucino Original",
+      "price": "7",
+      "imageUrl": "./media/coffee2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "coffee",
+      "title": "Cappucino Ice",
+      "price": "8",
+      "imageUrl": "./media/coffee3.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Cake Special",
+      "price": "12",
+      "imageUrl": "./media/dessert1.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Pupcake Special",
+      "price": "10",
+      "imageUrl": "./media/dessert2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Brownis",
+      "price": "8",
+      "imageUrl": "./media/dessert3.jpg"
+    },
+    {
+      "_id": "abc123",
+      "category": "desserts",
+      "title": "Cup Cake",
+      "price": "15",
+      "imageUrl": "./media/dessert4.jpg"
+    }
+  ],
+  "places": [
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/place1.jpg"
+    },
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/place2.jpg"
+    },
+    {
+      "_id": "abc123",
+      "imageUrl": "./media/place3.jpg"
+    }
+  ]
+}

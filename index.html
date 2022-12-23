@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <title>Responsive coffee website - ypcode</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">Coffee<span>.</span>co </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#place" class="nav__link">Place</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main" id="main">
+      <section
+        class="hero section"
+        id="home"
+        style="background-image: url('./assets/media/bg-hero.jpg')"
+      >
+        <h1 class="hero__title">
+          Start Your Day <br />
+          With Favorite Coffee <br />
+          And Cozy Place.
+        </h1>
+        <button class="hero__button">Order Now</button>
+      </section>
+
+      <!-- special -->
+      <div class="special section container" id="special">
+        <div class="special__container">
+          <div class="special__box">
+            <h2 class="section__title">
+              Best coffees that make you <br />
+              happy and cheer you up!
+            </h2>
+          </div>
+
+          <div class="special__category">
+            <div class="special__group">
+              <div class="special__img__border">
+                <img
+                  src="./assets/media/coffee-beans.png"
+                  alt=""
+                  class="special__img"
+                />
+              </div>
+              <h3 class="special__title">Original Coffee</h3>
+              <p class="special__description">
+                We select the best beans coffee, for a true taste.
+              </p>
+            </div>
+            <div class="special__group">
+              <div class="special__img__border">
+                <img
+                  src="./assets/media/hot-drink.png"
+                  alt=""
+                  class="special__img"
+                />
+              </div>
+              <h3 class="special__title">Hot Coffee</h3>
+              <p class="special__description">
+                Enjoy your coffee with some hot with true taste.
+              </p>
+            </div>
+            <div class="special__group">
+              <div class="special__img__border">
+                <img
+                  src="./assets/media/coffee-cup.png"
+                  alt=""
+                  class="special__img"
+                />
+              </div>
+              <h3 class="special__title">Ice Coffee</h3>
+              <p class="special__description">
+                Enjoy your coffee with some ice wtih true taste.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- products -->
+      <section class="products section" id="products">
+        <div class="products__container container">
+          <h2 class="section__title">
+            Find delicious food and <br />
+            choose what you love
+          </h2>
+
+          <ul class="products__filters">
+            <li
+              class="products__item products__line active-product"
+              data-filter=".delicacies"
+            >
+              <h3 class="products__title">Main Menu</h3>
+              <span class="products__stock">3 products</span>
+            </li>
+            <li class="products__item products__line" data-filter=".coffee">
+              <h3 class="products__title">Coffee</h3>
+              <span class="products__stock">4 products</span>
+            </li>
+            <li class="products__item" data-filter=".cake">
+              <h3 class="products__title">Desserts</h3>
+              <span class="products__stock">4 products</span>
+            </li>
+          </ul>
+
+          <div class="products__content grid">
+            <!-- 1 -->
+            <article class="products__card main-menu">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/main-menu1.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$5</h2>
+                <h3 class="products__name">Cookies</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card main-menu">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/main-menu2.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$6</h2>
+                <h3 class="products__name">Croissant</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card main-menu">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/main-menu3.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$4</h2>
+                <h3 class="products__name">Croissant</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card main-menu">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/main-menu4.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$4</h2>
+                <h3 class="products__name">Croissant</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <!-- 2 -->
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/coffee.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$7</h2>
+                <h3 class="products__name">Black Coffee</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/coffee2.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$12</h2>
+                <h3 class="products__name">Pure Coffee</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/coffee3.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$9</h2>
+                <h3 class="products__name">Milk Coffee</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <!-- 3 -->
+            <article class="products__card dessert">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/dessert1.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$6</h2>
+                <h3 class="products__name">Cream dessert</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card dessert">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/dessert2.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$5</h2>
+                <h3 class="products__name">Chocolate Croissant</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card dessert">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/dessert3.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$15</h2>
+                <h3 class="products__name">Pandessert</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+            <article class="products__card dessert">
+              <div class="products__shape">
+                <img
+                  src="./assets/media/dessert4.jpg"
+                  alt=""
+                  class="products__img"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$12</h2>
+                <h3 class="products__name">Milk dessert</h3>
+
+                <button class="button products__button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- place -->
+      <section class="place section" id="place">
+        <div class="place__container container">
+          <h2 class="section__title">
+            Make you feels good With <br />
+            our comfy fasilities
+          </h2>
+
+          <div class="place__content grid">
+            <div class="place__images">
+              <img
+                src="./assets/media/place1.jpg"
+                alt=""
+                class="place__img-big"
+              />
+              <div class="place__img-smalls">
+                <img
+                  src="./assets/media/place1.jpg"
+                  alt=""
+                  class="place__img-small active"
+                />
+                <img
+                  src="./assets/media/place2.jpg"
+                  alt=""
+                  class="place__img-small"
+                />
+                <img
+                  src="./assets/media/place3.jpg"
+                  alt=""
+                  class="place__img-small"
+                />
+              </div>
+            </div>
+
+            <div class="place__data">
+              <h2 class="place__title">Find a place you love</h2>
+              <p class="place__description">
+                We provide the best place to stay productive <br />
+                and focus with good vibes and beautiful design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section" id="blog">
+        <div class="blog__container container">
+          <h2 class="section__title">
+            Our blogs coffee with <br />
+            insightful topic
+          </h2>
+
+          <div class="blog__content grid">
+            <article class="blog__card">
+              <div class="blog__image">
+                <img src="./assets/media/blog1.jpg" alt="" class="blog__img" />
+                <a href="#" class="blog__button">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+                <div class="blog__stats">
+                  <div class="blog__reaction">
+                    <i class="bx bx-comment"></i>
+                    <span>12</span>
+                  </div>
+                  <div class="blog__reaction">
+                    <i class="bx bx-show"></i>
+                    <span>76,5k</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog__data">
+                <h2 class="blog__title">How to grow coffee beans</h2>
+                <p class="blog__description">
+                  The blogs about coffee will help you a lot about how to grow
+                  coffee beans with hign standard.
+                </p>
+              </div>
+            </article>
+            <article class="blog__card">
+              <div class="blog__image">
+                <img src="./assets/media/blog2.jpg" alt="" class="blog__img" />
+                <a href="#" class="blog__button">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+                <div class="blog__stats">
+                  <div class="blog__reaction">
+                    <i class="bx bx-comment"></i>
+                    <span>96</span>
+                  </div>
+                  <div class="blog__reaction">
+                    <i class="bx bx-show"></i>
+                    <span>356,7k</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog__data">
+                <h2 class="blog__title">How to make coffee for beginner</h2>
+                <p class="blog__description">
+                  The blogs about coffee will help you a lot about how to make a
+                  coffee with a good place coffee.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Coffee<span>.</span>co</h1>
+        <p class="footer__description">
+          The best place to work <br />
+          and be more productive.
+        </p>
+
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <h2 class="footer__subtitle">Address</h2>
+            <p class="footer__information">
+              Street no.19 Lombok <br />
+              mataram. 003
+            </p>
+          </div>
+          <div class="footer__data">
+            <h2 class="footer__subtitle">Contact</h2>
+            <p class="footer__information">
+              +987654321 <br />
+              coffee@email.com
+            </p>
+          </div>
+          <div class="footer__data">
+            <h2 class="footer__subtitle">Office</h2>
+            <p class="footer__information">
+              Monday - Saturday <br />
+              9AM - 10PM
+            </p>
+          </div>
+          <div class="footer__data">
+            <p class="footer__newsletter-description">
+              Subscribe to our newsletter
+            </p>
+
+            <div class="footer__newsletter">
+              <input
+                type="email"
+                placeholder="Your email address"
+                class="footer__input"
+              />
+              <button class="footer__button">
+                <i class="bx bx-right-arrow-alt"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <ul class="footer__social">
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="bx bxl-tiktok"></i>
+            </a>
+          </ul>
+
+          <span class="footer__copy"> &#169; ypcode. All rigths reserved </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
